@@ -1,17 +1,30 @@
 .message {
-
+    font-family:  "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-bottom: 30px;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 .imageAndText img {
-
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
 }
 
 .text {
-
+    color: #FFF;
+    background-color: #0066CC;
+    border-radius: 10px;
+    word-break: break-word;
+    padding: 8px 12px;
 }
 
 .text:after {
@@ -19,13 +32,20 @@
 }
 
 .name {
-
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 4px;
 }
 
 .messageText {
-
+    font-family:  "Montserrat", sans-serif;
+    white-space: pre-wrap;
 }
 
 .time {
-
+    font-weight: 600;
+    font-size: 12px;
+    text-align: right;
+    margin: 5px 10px 0;
 }
