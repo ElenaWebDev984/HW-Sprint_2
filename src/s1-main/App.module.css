@@ -1,11 +1,18 @@
 .App {
     --header_height: 60px;
+    width: 1280px;
 }
 
 .hw {
-
+    padding: 70px;
 }
 
 .hwTitle {
-
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    padding: 10px 70px;
 }
