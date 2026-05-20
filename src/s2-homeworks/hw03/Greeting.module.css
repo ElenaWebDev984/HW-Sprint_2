@@ -14,6 +14,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #CC0000;
+    margin-top: 10px;
 }
 
 .input {
@@ -27,12 +28,14 @@
 }
 
 .errorInput {
-   border: 1px #cc0000 solid;
+    border: 1px #cc0000 solid;
+    height: 36px;
+    padding: 0 12px;
 }
 
 .button {
     background: #0066CC;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -41,14 +44,15 @@
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    height: 36px;
 }
 
 .button:focus {
-
+    border: 1px #0066CC solid;
 }
 
 .button:active {
-
+    background: #005fcc;
 }
 
 .button:disabled {
@@ -59,11 +63,11 @@
 .text {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 17px;
-    color: rgba(0, 0, 0, 0.5);
-
+    color: #005fcc;
+    margin-bottom: 10px;
 
 }
 
@@ -73,6 +77,6 @@
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-
+    margin-top: 10px;
 
 }
