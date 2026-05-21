@@ -1,36 +1,53 @@
 .button {
+    width: 80px;
+    height: 36px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
 
 .disabled {
+    background-color: gray;
 }
 
 .secondary {
+    background-color: green;
 }
 
 .default {
+
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
+    background-color: #4f4fc2;
 }
 
 .red:hover {
+
 }
 
 .secondary:hover {
+
 }
 
 
 .default:active {
+
 }
 
 .secondary:active {
+
 }
 
 .red:active {
+
 }
 
 .button:disabled {
+
 }
